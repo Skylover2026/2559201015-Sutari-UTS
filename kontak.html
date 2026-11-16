@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <meta name="description" content="Kontak ASTÉRA Fashion">
+    <title>Kontak | ASTÉRA</title>
+</head>
+<body>
+    <nav class="navbar site-header">
+    <div class="yahuu">
+        <div class="logo"><a href="index.html" aria-label="ASTÉRA Beranda">ASTÉRA<span>✦</span></a></div>
+        <div class="menu main-nav">
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="tentang.html">Tentang</a></li>
+                <li><a href="katalog.html">Katalog</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+        </div>
+        <button class="menu-toggle" aria-label="Buka navigasi" aria-expanded="false">☰</button>
+    </div>
+</nav>
+<main>
+<section class="page-hero">
+    <p class="eyebrow">CONTACT ASTÉRA</p>
+    <h1>Let's talk <em>fashion.</em></h1>
+    <p>Hubungi kami untuk pertanyaan produk, informasi pemesanan, atau kerja sama.</p>
+</section>
+<section class="contact-layout">
+    <div>
+        <p class="eyebrow">FIND US</p>
+        <h2>We'd love to hear <em>from you.</em></h2>
+        <div class="contact-item">
+            <b>EMAIL</b>
+            <a href="mailto:asterafashion@example.com">asterafashion@example.com</a>
+        </div>
+        <div class="contact-item">
+            <b>INSTAGRAM</b>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">@astera.fashion</a>
+        </div>
+        <div class="contact-item">
+            <b>ADDRESS</b>
+            <p>Bangka Belitung, Indonesia</p>
+        </div>
+        <div class="map-frame">
+            <iframe title="Peta lokasi Indonesia" src="https://www.google.com/maps?q=Indonesia&output=embed" loading="lazy"></iframe>
+        </div>
+        <p class="note">Ganti alamat, akun media sosial, dan peta sesuai lokasi usaha sebenarnya.</p>
+<h3>Operating hours</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Hari</th>
+            <th>Jam operasional</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Senin–Jumat</td>
+            <td>09.00–17.00</td>
+        </tr>
+        <tr>
+            <td>Sabtu</td>
+            <td>10.00–15.00</td>
+        </tr>
+        <tr>
+            <td>Minggu</td>
+            <td>Tutup</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<form class="contact-form" id="contact-form">
+    <p class="eyebrow">SEND US A MESSAGE</p>
+    <h2>How can we <em>help?</em></h2>
+<div class="form-field">
+    <label for="nama">Nama lengkap</label>
+    <input id="nama" name="nama" type="text" required>
+</div>
+<div class="form-field">
+    <label for="email">Alamat email</label>
+    <input id="email" name="email" type="email" required>
+</div>
+<div class="form-row">
+    <div class="form-field">
+        <label for="telepon">Nomor HP</label>
+        <input id="telepon" name="telepon" type="tel" pattern="[0-9](10, 13)" minlength="10" maxlength="13" title="Masukkan 10 sampai 13 digit angka" required>
+    </div>
+    <div class="form-field">
+        <label for="keperluan">Keperluan</label>
+        <select id="keperluan" name="keperluan" required>
+            <option value="">Pilih keperluan</option>
+            <option>Informasi produk</option>
+            <option>Pemesanan</option>
+            <option>Kerja sama</option>
+            <option>Lainnya</option>
+        </select>
+    </div>
+</div>
+<div class="form-field">
+    <label for="pesan">Pesan</label>
+    <textarea id="pesan" name="pesan" minlength="10" maxlength="500" rows="5" required></textarea>
+    <small>Minimal 10 dan maksimal 500 karakter.</small>
+</div>
+<button class="hero-button" type="submit">Send Message ↗</button>
+<p id="form-feedback" class="form-feedback" aria-live="polite"></p>
+<p class="note">Formulir ini demonstrasi front-end, belum mengirim pesan ke server.</p>
+</form>
+</section>
+</main>
+<footer class="site-footer">
+    <a class="footer-logo" href="index.html">ASTÉRA <small>FASHION</small></a>
+    <p>© 2030 ASTÉRA. All style, all you.</p>
+    <a href="kontak.html">Get in touch ↗</a>
+</footer>
+</body>
+</html>
